@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Refresh Webpage 60s",
+  "description": "Refresh Webpage 60s",
+  "version": "1.0",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "webNavigation",
+    "scripting",
+    "tabs",
+    "activeTab",
+    "nativeMessaging"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
